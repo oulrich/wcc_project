@@ -1,15 +1,10 @@
 #! /bin/bash
 
 # A bash script to update GTFS data and
-# create position vectors from a a real-
+# create position vectors from a real-
 # time SIRI feed.
 
-# These vectors are passed as JSON to
-# "json2csv.py", where they are added
-# to csv files for use by the Hadoop
-# cluster.
-
-# This program currenly assumes eastern
+# This program currently assumes eastern
 # time, subject to daylight savings.
 
 # 	Written by Otho Ulrich for 
